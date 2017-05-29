@@ -1,0 +1,7 @@
+<div class="row col-md-8 col-md-offset-2">
+  <h1><%= @chatroom.username %></h1>
+  <% @emote_per_minute.each do |emote, rate| %>
+  	<h3><%= emote %></h3>
+  	<h3><%= rate %></h3>
+  <% end %>
+</div>
